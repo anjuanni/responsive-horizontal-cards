@@ -1,0 +1,17 @@
+.widthofmobile>div>img {
+    height: 180px;
+
+}
+
+
+@media screen and (max-width:768px) {
+    .widthofmobile {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .widthofmobile>div>img {
+        height: auto;
+    }
+
+}
